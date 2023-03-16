@@ -78,18 +78,57 @@ header ul {
     flex-shrink: 0;
 }
 
-.info-section {
+.information-section {
+    padding: 0px 180px 100px 180px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 160px;
+    gap: 8px;
+}
+
+.card img {
+    width: 100%;
+    border: #3882f6 solid 4px;
+    border-radius: 16px;
+}
+
+.card p {
+    text-align: center;
+    color: #1f2937;
 }
 
 .quote-section {
     background-color: #e5e7eb;
+    padding: 0 180px;
 }
 
 .sign-up-section {
     background-color: #fff;
+    padding: 0 180px;
 }
 
 footer {
     background-color: #1f2937;
+    padding: 0 180px;
 }
